@@ -1,0 +1,26 @@
+@import "../../style/variables.scss";
+
+header {
+  width: 100%;
+  position: relative;
+  z-index: 999;
+}
+
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_bottom_end a:hover {
+  opacity: 0.5;
+  transition: 0.2s linear;
+}
+
+.header_bottom_start object {
+  width: 300px;
+}
+
+.header_menu_main {
+  /* background: linear-gradient(to right, #5f2c82, #49a09d); */
+  background: #4b5b66;
+}
